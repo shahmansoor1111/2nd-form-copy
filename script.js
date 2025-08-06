@@ -43,5 +43,20 @@ pela.value = "Your name is " + " " + fisrt;
    
     }
 function submits () {
-    alert("Your Form is submitted")
-}
+    var input = document.getElementsByTagName("input")
+    var emptys = false
+for (let i = 0; i < input.length; i++) {
+    if(input[4].value === "") {
+        emptys = true;
+        // break;
+    }
+
+
+    }
+    if(!emptys) {
+        alert("submitted")
+    }
+    else {
+        alert("not submitted")
+    }
+} 
