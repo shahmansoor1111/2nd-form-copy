@@ -54,9 +54,9 @@ for (let i = 0; i < input.length; i++) {
 
     }
     if(!emptys) {
-        alert("submitted")
+        alert("Form Sumbitted Succesfully")
     }
     else {
-        alert("not submitted")
+        alert("Please fill all the inputs")
     }
 } 
